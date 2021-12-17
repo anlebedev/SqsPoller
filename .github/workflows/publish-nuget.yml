@@ -3,7 +3,7 @@ name: Publish Nuget package
 on: 
   push:
     branches:
-      master
+      release.0.x
 
 jobs:
   build:
